@@ -42,7 +42,7 @@ jobs:
 
   release:
     name: Release
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     needs:
       - build
     if: github.event_name == 'release'
