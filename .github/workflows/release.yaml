@@ -26,14 +26,14 @@ jobs:
           sudo rm -rf /opt/*
           ./scripts/make ${{ matrix.target }}
       - name: Upload package
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ${{ matrix.target }}.tar.xz
           path: ${{ matrix.target }}.tar.xz
           if-no-files-found: error
           retention-days: 1
       - name: Upload checksum
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ${{ matrix.target }}.tar.xz.sha256
           path: ${{ matrix.target }}.tar.xz.sha256
