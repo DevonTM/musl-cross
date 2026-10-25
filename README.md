@@ -6,7 +6,7 @@ This is a simple, lightweight project for making cross-compilation toolchain wit
 
 | Target                         | Kernel   | Binutils | GCC    | Musl  | mold   |
 |--------------------------------|----------|----------|--------|-------|--------|
-| aarch64-unknown-linux-musl     | 5.10.265 | 2.47     | 16.2.0 | 1.2.6 | 2.42.1 |
+| aarch64-unknown-linux-musl     | 5.10.271 | 2.47     | 16.2.0 | 1.2.6 | 2.42.1 |
 | arm-unknown-linux-musleabi     | 5.4.302  | 2.47     | 16.2.0 | 1.2.6 |        |
 | arm-unknown-linux-musleabihf   | 5.4.302  | 2.47     | 16.2.0 | 1.2.6 |        |
 | armv7-unknown-linux-musleabi   | 5.4.302  | 2.47     | 16.2.0 | 1.2.6 |        |
